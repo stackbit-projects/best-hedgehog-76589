@@ -17,7 +17,7 @@ export default class Advanced extends React.Component {
         const sections = _.get(page, 'sections');
         const pageUrl = getPageUrl(page);
 
-        return (
+        return ( 
             <Layout page={page} config={config}>
                 {!hideTitle && (
                     <header className="section section--header">
